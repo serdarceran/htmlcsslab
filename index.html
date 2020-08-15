@@ -1,41 +1,99 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
 
 <head>
   <meta charset="utf-8">
   <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
+  <!--  <style>-->
+  <!--    section {-->
+  <!--      background: aqua;-->
+  <!--    }-->
+  <!--  </style>-->
 </head>
 
 <body>
-  <h3>Testing test</h3>
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<header class="main-header">
+  <div class="main-host">
+    <a href="index.html" class="main-header__brand">
+      uHost
+    </a>
+  </div>
+  <nav class="main-nav">
+    <ul class="main-nav__items">
+      <li class="main-nav__item">
+        <a href="pages/packages/index.html">Packages</a>
+      </li>
+      <li class="main-nav__item">
+        <a href="pages/customers/index.html">Customers</a>
+      </li>
+      <li class="main-nav__item main-nav__item--cta">
+        <a href="pages/hostings/index.html">Start Hosting</a>
+      </li>
+    </ul>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </nav>
+</header>
+
+<main>
+  <section id="product-overview">
+    <h1 class="section-title">Get freedom you deserve</h1>
+    <p >  This is product section which can be important.This is another section which can be important. This is another section which can be important. This is another section which can be important. This is another section which can be important. </p>
+  </section>
+
+  <section id="plan">
+    <h1>Choose Your Plan</h1>
+    <div>
+      <article>
+        <h1>FREE</h1>
+        <h2>$0/Month</h2>
+        <h3>For hobby projects</h3>
+        <ul>
+          <li>1 Workspace</li>
+          <li>Unlimited Traffic</li>
+          <li>10GB Storage</li>
+          <li>Basic Support</li>
+        </ul>
+        <div>
+          <button>CHOOSE PLAN</button>
+        </div>
+      </article>
+      <article class="plan_recommended">
+        <h1>RECOMMENDED</h1>
+        <h1>PLUS</h1>
+        <h2>$20/Month</h2>
+        <h3>For ambitious projects</h3>
+        <ul>
+          <li>5 Workspace</li>
+          <li>Unlimited Traffic</li>
+          <li>100GB Storage</li>
+          <li>7/24 Online Support</li>
+        </ul>
+        <div>
+          <button class="gg">CHOOSE PLAN</button>
+        </div>
+      </article>
+      <article>
+        <h1>PREMIUM</h1>
+        <h2>$300/Month</h2>
+        <h3>For professional projects</h3>
+        <ul>
+          <li>300 Workspace</li>
+          <li>Unlimited Traffic</li>
+          <li>100T Storage</li>
+          <li>7/24 Online Support in 10 minutes</li>
+        </ul>
+        <div>
+          <button>CHOOSE PLAN</button>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+
+<script src="js/main.js"></script>
 </body>
 
 </html>
