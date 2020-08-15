@@ -131,6 +131,8 @@ h1 {
   background: darkgreen;
   padding: 8px 16px;
   border: 1px solid black;
+  position: fixed;
+  width: 100%;
 }
 
 .main-nav {
@@ -138,6 +140,11 @@ h1 {
   width: calc(100% - 75px);
   text-align: right;
   vertical-align: middle;
+}
+
+main {
+  /*margin-top: 10px;*/
+  padding-top: 20px;
 }
 
 .main-header__brand {
@@ -213,7 +220,7 @@ h1:not(.section-title) {
 }
 
 .section-reasons {
-  background-color: mediumvioletred;
+  background-color: #ff1b68;
   padding: 1px;
   text-align: center;
 }
@@ -224,14 +231,13 @@ h1:not(.section-title) {
 }
 
 .section-reasons  ul {
-  position: absolute;
   width: 100%;
   background-color: inherit;
-  margin: 0;
+  margin-top: 40px;
+  padding: 0;
 }
 
 .section-reasons li {
-  position: relative;
   display: inline-block;
   /*border: 1px black solid;*/
   list-style: none;
@@ -242,9 +248,9 @@ h1:not(.section-title) {
   font-size: large;
   margin: 0 20px;
   height: 200px;
-  width: 27%;
+  width: 30%;
   padding-bottom: 10px;
-  max-width: 450px;
+  max-width:250px;
   min-width: fit-content;
   /*box-shadow: 2px 2px;*/
 }
@@ -256,18 +262,11 @@ h1:not(.section-title) {
   width: 100px;
   height: 100px;
   /*border: 1px blue solid;*/
-  position: absolute;
-  left: 50%;
-  bottom: 45%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  margin: auto;
 }
 
 .section-reasons p {
-  position: absolute;
-  left: 50%;
-  bottom: 1%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  vertical-align: top;
+
 }
 
