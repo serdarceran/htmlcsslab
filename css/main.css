@@ -42,7 +42,7 @@ a.main-header__brand {
 }
 
 #plan {
-  padding: 1px;
+  padding: 10px 0;
 }
 
 #plan .plan_recommended{
@@ -80,6 +80,7 @@ a.main-header__brand {
   color: white;
   cursor: pointer;
 }
+
 
 #plan article button:focus {
   outline: none;
@@ -210,3 +211,63 @@ h1:not(.section-title) {
   /*font-weight: bold;*/
   /*font-size: small;*/
 }
+
+.section-reasons {
+  background-color: mediumvioletred;
+  padding: 1px;
+  text-align: center;
+}
+
+.section-reasons > h1 {
+  color: white;
+
+}
+
+.section-reasons  ul {
+  position: absolute;
+  width: 100%;
+  background-color: inherit;
+  margin: 0;
+}
+
+.section-reasons li {
+  position: relative;
+  display: inline-block;
+  /*border: 1px black solid;*/
+  list-style: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: center;
+  font-size: large;
+  margin: 0 20px;
+  height: 200px;
+  width: 27%;
+  padding-bottom: 10px;
+  max-width: 450px;
+  min-width: fit-content;
+  /*box-shadow: 2px 2px;*/
+}
+
+.section-reasons div {
+  background: lightblue;
+  border-radius: 50%;
+  border: black 1px dashed;
+  width: 100px;
+  height: 100px;
+  /*border: 1px blue solid;*/
+  position: absolute;
+  left: 50%;
+  bottom: 45%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.section-reasons p {
+  position: absolute;
+  left: 50%;
+  bottom: 1%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
