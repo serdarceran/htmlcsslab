@@ -23,7 +23,7 @@ section {
 #plan article {
   background-color: darkseagreen;
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: middle;
   margin: 0 20px;
   width: 25%;
   border-radius: 10px;
@@ -32,9 +32,15 @@ section {
   min-width: fit-content;
   box-shadow: 2px 2px;
 }
+.give-space{
+  float: left;
+  /*border: black 1px solid;*/
+  height: 20px;
+  width: 100%;
+}
 
 #plan article.overflowing_article {
-  margin-top: 35px;
+  clear: both;
 }
 
 #plan article > h2 {
