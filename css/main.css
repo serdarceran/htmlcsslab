@@ -88,6 +88,10 @@ section {
   text-align: center;
 }
 
+html {
+  height: auto;
+}
+
 #product-overview {
   height: 470px;
   padding: 10px;
