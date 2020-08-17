@@ -13,7 +13,21 @@ section:active {
 section:first-of-type {
   margin-top: 60px;
 }
+.plan_recommended--section {
+  position: relative;
+}
+.plan_recommended--batch {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  margin: 0;
+  font-size: medium;
+  background-color: orangered;
+  color: white;
+  padding: 5px;
+  text-transform: uppercase;
 
+}
 section a {
   text-decoration: none;
 }
