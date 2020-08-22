@@ -84,6 +84,16 @@ section {
   padding-bottom: 5px;
 }
 
+#product-overview  {
+  position: relative;
+}
+#product-overview h1 {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+  font-style: italic;
+}
+
 #plan {
   text-align: center;
 }
@@ -98,6 +108,10 @@ html {
   border-width: 5px;
   /*padding: 10px;*/
   background: url("../img/freedom.jpg");
+  /*background-size: 100% 100%;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 20%; /*where to crop from*/
 }
 
 
